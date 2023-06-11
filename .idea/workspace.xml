@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec06a38f-3072-4a7c-aa7c-c674c17bda1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture01/ru/gb/jcore/regular/Decorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture01/ru/gb/jcore/regular/OtherClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture01/ru/gb/jcore/sample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework01/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,13 +33,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/_GB/11_JavaCore"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/_GB/11_JavaCore&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.gb.jcore.sample.Main" />
