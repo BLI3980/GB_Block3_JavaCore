@@ -4,7 +4,7 @@ import hw01.utils.Converter;
 import hw01.utils.Decorator;
 
 /**
- * Main class of the application. Here we can describe
+ * main.misc.Main class of the application. Here we can describe
  * its main purpose and methods of interaction with it.
  */
 public class Main {

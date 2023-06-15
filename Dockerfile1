@@ -1,6 +1,8 @@
-FROM openjdk:11
-WORKDIR /hw01
+FROM openjdk:11 as BuildProject
+WORKDIR /app1
 COPY ./3_Homeworks/Homework01 ./src
 RUN mkdir ./out
 RUN javac -sourcepath ./src -d out ./src/hw01/app/main.misc.Main.java
-CMD java -classpath ./out hw01.app.main.misc.Main
+
+FROM scratch as OutputFiles
+COPY --from=BuildProject /app1/out /bin

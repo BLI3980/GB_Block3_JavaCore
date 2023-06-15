@@ -4,7 +4,7 @@ import ru.gb.jcore.regular.Decorator;
 import ru.gb.jcore.regular.OtherClass;
 
 /**
- * Main class of the application. Here we can describe
+ * main.misc.Main class of the application. Here we can describe
  * its main purpose and methods of interaction with it.
  */
 
