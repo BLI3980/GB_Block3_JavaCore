@@ -18,6 +18,12 @@ public class GameSnake extends JFrame {
     final static int KEY_UP = 38;               //    of
     final static int KEY_RIGHT = 39;            //    cursor
     final static int KEY_DOWN = 40;             //    keys
+    final int START_SNAKE_SIZE = 5;             // initialization data
+    final int START_SNAKE_X = CANVAS_WIDTH/2;   //    for
+    final int START_SNAKE_Y = CANVAS_HEIGHT/2;  //    snake
+    final int SNAKE_DELAY = 150;          // snake delay in milliseconds
+    int snakeSize = 0;                          // current snake size
+    static boolean gameOver = false;            // a sign game is over or not
 
     Canvas canvas;          // canvas object for rendering (drawing)
     Snake snake;            // declare a snake object
@@ -26,11 +32,33 @@ public class GameSnake extends JFrame {
 
 
     public static void main(String[] args) {
-        GameSnake.run();
+        new GameSnake().run();
     }
 
-    private static void run() {
+    private void run() {
+        snake = new Snake(
+                START_SNAKE_X,
+                START_SNAKE_Y,
+                START_SNAKE_SIZE,
+                KEY_RIGHT);
 
+        food = new Food(snake);
+        snake.setFood(food);
+
+        while(!gameOver) {
+            snake.move();
+            if (snake.size() > snakeSize) {
+                snakeSize = snake.size();
+                setTitle(TITLE_OF_PROGRAM + ": " + snakeSize);
+            }
+
+            if (food.isEaten()) {
+                food.appear();
+            }
+
+            canvas.repaint();
+            sleep(SNAKE_DELAY);
+        }
     }
 
     public GameSnake() {
@@ -48,11 +76,32 @@ public class GameSnake extends JFrame {
                 snake.setDirection(e.getKeyCode());
             }
         });
-        add(canvas);
-        pack();
-        setLocationRelativeTo(null);
-        setResizable(false);
-        setVisible(true);
+        add(canvas);                    // connecting our game field with game window frame
+        pack();                         // packing game into the frame
+        setLocationRelativeTo(null);    // setting game window in the center of display
+        setResizable(false);            // setting game window to be not resizable
+        setVisible(true);               // setting game window to be visible
+    }
+
+    private void sleep(long ms) {       // delay method
+        try {
+            Thread.sleep(ms);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
+    class Canvas extends JPanel {
+        @Override
+        public void paint(Graphics g) {
+            super.paint(g);
+            Graphics2D g2D = (Graphics2D) g;
+            g2D.setRenderingHint(RenderingHints.KEY_ANTIALIASING,
+                    RenderingHints.VALUE_ANTIALIAS_ON);
+            snake.paint(g2D);
+            food.paint(g2D);
+//            poison.paint(g2D);
+        }
     }
 
 }

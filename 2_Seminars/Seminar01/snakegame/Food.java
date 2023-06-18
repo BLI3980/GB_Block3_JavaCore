@@ -25,7 +25,7 @@ public class Food extends Cell{
         return getX() == -1;
     }
     public boolean isFood(int x, int y) {
-        return false;
+        return (getX() == x & getY() == y);
     }
 
     public void eat() {

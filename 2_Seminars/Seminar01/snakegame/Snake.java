@@ -81,4 +81,12 @@ public class Snake {
         }
         return false;
     }
+
+    public Food getFood() {
+        return food;
+    }
+
+    public void setFood(Food food) {
+        this.food = food;
+    }
 }
