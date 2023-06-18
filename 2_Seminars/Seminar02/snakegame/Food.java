@@ -2,7 +2,7 @@ package snakegame;
 
 import java.util.Random;
 
-public class Food extends Cell{
+public class Food extends Cell {
     private Random random;
     private Snake snake;
 

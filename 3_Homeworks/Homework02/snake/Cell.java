@@ -1,7 +1,6 @@
-package snakegame;
+package snake;
 
 import java.awt.*;
-import java.util.LinkedList;
 
 public class Cell {
     private int x, y;
