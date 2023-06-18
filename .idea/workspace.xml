@@ -5,26 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec06a38f-3072-4a7c-aa7c-c674c17bda1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework02/hw02/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework02/hw02/task01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework02/hw02/task02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework02/hw02/task03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework02/snake/Cell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework02/snake/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework02/snake/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework02/snake/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework02/snake/GameSnake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework02/snake/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework02/snake/Poison.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework02/snake/Snake.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar01/caesar/Caesar.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/caesar/Caesar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar01/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar01/snakegame/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/snakegame/Cell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar01/snakegame/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/snakegame/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar01/snakegame/GameSnake.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/snakegame/GameSnake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar01/snakegame/Poison.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/snakegame/Poison.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar01/snakegame/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/snakegame/Snake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Homeworks/Homework02/snake/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Homeworks/Homework02/snake/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Homeworks/Homework02/snake/GameSnake.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Homeworks/Homework02/snake/GameSnake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Homeworks/Homework02/snake/Poison.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Homeworks/Homework02/snake/Poison.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Homeworks/Homework02/snake/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Homeworks/Homework02/snake/Snake.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +56,7 @@
       <recent name="C:\_GB\11_JavaCore\z_Temp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.hw02.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="GameSnake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="snakegame.GameSnake" />
       <module name="JavaCore" />
@@ -133,8 +118,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.hw02.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.hw02.Main" />
         <item itemvalue="Application.snake.GameSnake" />
         <item itemvalue="Application.GameSnake" />
         <item itemvalue="Application.misc.Main" />

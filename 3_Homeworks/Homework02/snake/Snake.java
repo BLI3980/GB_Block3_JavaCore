@@ -7,6 +7,7 @@ public class Snake {
     private LinkedList<Cell> snake;
     private int direction;
     private Food food;
+    private Poison poison;
 
     public Snake(int x, int y, int length, int direction) {
         snake = new LinkedList<>();
@@ -54,12 +55,13 @@ public class Snake {
                     y = 0;
                 break;
         }
-        /*if (isInSnake(x, y) ||          // if the snake crosses itself
+        if (isInSnake(x, y) ||          // if the snake crosses itself
             poison.isPoison(x,y)) {     // or if it eats poison
             GameSnake.gameOver = true;
             return;
-        }*/
+        }
         snake.addFirst(new Cell(x, y, GameSnake.CELL_SIZE, GameSnake.SNAKE_COLOR));     // new head of snake
+
         if (food.isFood(x, y)) {
             food.eat();
         } else {
@@ -88,5 +90,14 @@ public class Snake {
 
     public void setFood(Food food) {
         this.food = food;
+    }
+
+
+    public Poison getPoison() {
+        return poison;
+    }
+
+    public void setPoison(Poison poison) {
+        this.poison = poison;
     }
 }

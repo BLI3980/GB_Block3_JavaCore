@@ -40,6 +40,8 @@ public class GameSnake extends JFrame {
 
         food = new Food(snake);
         snake.setFood(food);
+        poison = new Poison(snake);
+        snake.setPoison(poison);
 
         while(!gameOver) {
             snake.move();
@@ -50,11 +52,13 @@ public class GameSnake extends JFrame {
 
             if (food.isEaten()) {
                 food.appear();
+                poison.appear();
             }
 
             canvas.repaint();
             sleep(SNAKE_DELAY);
         }
+        JOptionPane.showMessageDialog(null, GAME_OVER_MSG, "InfoBox: " + GAME_OVER_MSG, JOptionPane.INFORMATION_MESSAGE);
     }
 
     public GameSnake() {
@@ -96,7 +100,7 @@ public class GameSnake extends JFrame {
                     RenderingHints.VALUE_ANTIALIAS_ON);
             snake.paint(g2D);
             food.paint(g2D);
-//            poison.paint(g2D);
+            poison.paint(g2D);
         }
     }
 
