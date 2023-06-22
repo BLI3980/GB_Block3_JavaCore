@@ -1,4 +1,4 @@
-package snakegame;
+package group01.snakegame;
 
 import java.util.Random;
 

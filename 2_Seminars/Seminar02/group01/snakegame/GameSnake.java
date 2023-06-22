@@ -1,4 +1,4 @@
-package snakegame;
+package group01.snakegame;
 
 import javax.swing.*;
 import java.awt.*;

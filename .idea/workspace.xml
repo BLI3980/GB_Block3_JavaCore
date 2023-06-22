@@ -5,11 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec06a38f-3072-4a7c-aa7c-c674c17bda1c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/gb/jcore/lecture03/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/gb/jcore/lecture03/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/group02/ticTacToe/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/group01/employees/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/group01/employees/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/group01/employees/Tasks_description.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/hw03/AgeComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/hw03/Chief.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/hw03/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/hw03/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/hw03/SalaryComporator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_Homeworks/Homework02/snake/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Homeworks/Homework02/snake/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_Homeworks/Homework02/snake/GameSnake.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Homeworks/Homework02/snake/GameSnake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_Homeworks/Homework02/snake/Poison.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Homeworks/Homework02/snake/Poison.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_Homeworks/Homework02/snake/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Homeworks/Homework02/snake/Snake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar02/caesar/Caesar.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/group01/caesar/Caesar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar02/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/group01/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar02/snakegame/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/group01/snakegame/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar02/snakegame/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/group01/snakegame/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar02/snakegame/GameSnake.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/group01/snakegame/GameSnake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar02/snakegame/Poison.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/group01/snakegame/Poison.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar02/snakegame/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/group01/snakegame/Snake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ru/gb/jcore/sample/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ru/gb/jcore/sample/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ru/gb/jcore/sample/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ru/gb/jcore/sample/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ru/gb/jcore/sample/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ru/gb/jcore/sample/package-tree.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +63,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/_GB/6_OOP"
+    "last_opened_file_path": "C:/_GB/11_JavaCore/3_Homeworks/Homework03/hw03",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\_GB\11_JavaCore\3_Homeworks\Homework03\hw03" />
       <recent name="C:\_GB\11_JavaCore\3_Homeworks\Homework02\snake" />
       <recent name="C:\_GB\11_JavaCore\3_Homeworks\Homework02" />
     </key>
@@ -56,13 +78,13 @@
       <recent name="C:\_GB\11_JavaCore\z_Temp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.hw03.Main">
     <configuration name="GameSnake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="snakegame.GameSnake" />
+      <option name="MAIN_CLASS_NAME" value="group01.snakegame.GameSnake" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="snakegame.*" />
+          <option name="PATTERN" value="group01.snakegame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="snake.Main" />
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="group02.ticTacToe.Program" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="snake.*" />
+          <option name="PATTERN" value="group02.ticTacToe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hw02.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw02.Main" />
+    <configuration name="group01.employees.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="group01.employees.Main" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw02.*" />
+          <option name="PATTERN" value="group01.employees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,19 +118,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="misc.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="misc.Main" />
+    <configuration name="hw03.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw03.Main" />
       <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="snake.GameSnake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="snake.GameSnake" />
+    <configuration name="ru.gb.jcore.lecture03.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.jcore.lecture03.Main" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="snake.*" />
+          <option name="PATTERN" value="ru.gb.jcore.lecture03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.hw02.Main" />
-        <item itemvalue="Application.snake.GameSnake" />
+        <item itemvalue="Application.hw03.Main" />
+        <item itemvalue="Application.group01.employees.Main" />
+        <item itemvalue="Application.ru.gb.jcore.lecture03.Main" />
+        <item itemvalue="Application.Program" />
         <item itemvalue="Application.GameSnake" />
-        <item itemvalue="Application.misc.Main" />
       </list>
     </recent_temporary>
   </component>

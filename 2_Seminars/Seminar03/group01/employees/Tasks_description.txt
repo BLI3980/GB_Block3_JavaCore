@@ -1,0 +1,5 @@
+Task01: Create a class Employee with fields fullName, position, phone, salary, age.
+Task02: Create a method showing in console the available information about the object.
+Task03: Create a list/array of employees. Create a method which increases employee salary by 5000,
+if employee age is greater than 45 years.
+Task04: Same as task03, but salary increase and age must be parameters of a method

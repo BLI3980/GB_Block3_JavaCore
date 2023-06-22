@@ -1,6 +1,6 @@
-package main;
+package group01.main;
 
-import caesar.Caesar;
+import group01.caesar.Caesar;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package caesar;
+package group01.caesar;
 
 public class Caesar {
     public static String caesar(String in, int key, boolean encrypt) {
