@@ -5,31 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec06a38f-3072-4a7c-aa7c-c674c17bda1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/gb/jcore/lecture03/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/gb/jcore/lecture03/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/group02/ticTacToe/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/group01/employees/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/group01/employees/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/group01/employees/Tasks_description.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/hw03/AgeComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/hw03/Chief.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/hw03/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/hw03/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/hw03/SalaryComporator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/group02/competition/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/group02/competition/BaseHuman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/group02/competition/BaseRobot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/group02/competition/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/group02/competition/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/group02/competition/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/group02/competition/Obstacle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/group02/competition/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/group02/competition/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/group02/competition/Track.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/group02/competition/Wall.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar02/caesar/Caesar.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/group01/caesar/Caesar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar02/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/group01/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar02/snakegame/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/group01/snakegame/Cell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar02/snakegame/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/group01/snakegame/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar02/snakegame/GameSnake.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/group01/snakegame/GameSnake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar02/snakegame/Poison.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/group01/snakegame/Poison.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar02/snakegame/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/group01/snakegame/Snake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/allclasses-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-all.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/ru/gb/jcore/sample/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ru/gb/jcore/sample/Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/ru/gb/jcore/sample/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ru/gb/jcore/sample/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/ru/gb/jcore/sample/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ru/gb/jcore/sample/package-tree.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -57,16 +45,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/_GB/11_JavaCore/3_Homeworks/Homework03/hw03",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/_GB/11_JavaCore/3_Homeworks/Homework03/hw03&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\_GB\11_JavaCore\3_Homeworks\Homework03\hw03" />
@@ -78,13 +66,13 @@
       <recent name="C:\_GB\11_JavaCore\z_Temp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.hw03.Main">
-    <configuration name="GameSnake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="group01.snakegame.GameSnake" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="group02.competition.Main" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="group01.snakegame.*" />
+          <option name="PATTERN" value="group02.competition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.hw03.Main" />
         <item itemvalue="Application.group01.employees.Main" />
         <item itemvalue="Application.ru.gb.jcore.lecture03.Main" />
         <item itemvalue="Application.Program" />
-        <item itemvalue="Application.GameSnake" />
       </list>
     </recent_temporary>
   </component>
