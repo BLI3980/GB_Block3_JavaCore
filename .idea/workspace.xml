@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec06a38f-3072-4a7c-aa7c-c674c17bda1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/group02/competition/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/group02/competition/BaseHuman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/group02/competition/BaseRobot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/group02/competition/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/group02/competition/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/group02/competition/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/group02/competition/Obstacle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/group02/competition/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/group02/competition/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/group02/competition/Track.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/group02/competition/Wall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture04/ur/gb/jcore/lecture04/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture04/ur/gb/jcore/lecture04/Orange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture04/ur/gb/jcore/lecture04/Orange1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar03/group02/competition/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/group02/competition/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Temp/misc/misc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/z_Temp/misc/misc/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,26 +60,13 @@
       <recent name="C:\_GB\11_JavaCore\z_Temp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.ur.gb.jcore.lecture04.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="group02.competition.Main" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="group02.competition.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="group02.ticTacToe.Program" />
-      <module name="JavaCore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="group02.ticTacToe.*" />
+          <option name="PATTERN" value="ur.gb.jcore.lecture04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +100,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.gb.jcore.lecture03.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.jcore.lecture03.Main" />
+    <configuration name="misc.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="misc.Main" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.jcore.lecture03.*" />
+          <option name="PATTERN" value="misc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ur.gb.jcore.lecture04.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ur.gb.jcore.lecture04.Main" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ur.gb.jcore.lecture04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ur.gb.jcore.lecture04.Main" />
+        <item itemvalue="Application.misc.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.hw03.Main" />
         <item itemvalue="Application.group01.employees.Main" />
-        <item itemvalue="Application.ru.gb.jcore.lecture03.Main" />
-        <item itemvalue="Application.Program" />
       </list>
     </recent_temporary>
   </component>

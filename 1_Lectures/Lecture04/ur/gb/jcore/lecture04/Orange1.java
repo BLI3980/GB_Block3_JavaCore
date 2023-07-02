@@ -4,9 +4,9 @@ package ur.gb.jcore.lecture04;
  * Nested classes. Non-static inner class.
  * Such connection of classes and instances is called Composition.
  */
-public class Orange {
+public class Orange1 {
     private Juice juice;
-    public Orange() {
+    public Orange1() {
         this.juice = new Juice();
     }
 
@@ -15,6 +15,7 @@ public class Orange {
         juice.flow();
     }
 
+    // Inner Class
     private class Juice {
 
         public void flow()  {
