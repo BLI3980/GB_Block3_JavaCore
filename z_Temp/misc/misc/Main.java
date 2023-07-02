@@ -1,5 +1,7 @@
 package misc;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 //        int a = 10.3f/3.0f;
@@ -13,5 +15,8 @@ public class Main {
         System.out.println(i);
 
 
+        enum Seasons {WINTER, SPRING, SUMMER, AUTUMN};
+
+        System.out.println(Arrays.toString(Seasons.values()));
     }
 }
