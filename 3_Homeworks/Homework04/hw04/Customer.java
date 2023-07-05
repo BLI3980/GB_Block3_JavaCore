@@ -5,13 +5,16 @@ public class Customer {
     private String lastName;
     private int age;
     private String phone;
+    private Gender gender;
 
-    public Customer(String firstName, String lastName, int age, String phone) {
+    public Customer(String firstName, String lastName, int age, String phone, Gender gender) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
         this.phone = phone;
+        this.gender = gender;
     }
+
 
     public String getFirstName() {
         return firstName;
@@ -43,5 +46,24 @@ public class Customer {
 
     public void setPhone(String phone) {
         this.phone = phone;
+    }
+
+    public Gender getGender() {
+        return gender;
+    }
+
+    public void setGender(Gender gender) {
+        this.gender = gender;
+    }
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "firstName= '" + firstName + '\'' +
+                ", lastName= '" + lastName + '\'' +
+                ", age= " + age +
+                ", phone= '" + phone + '\'' +
+                ", gender= " + gender +
+                '}';
     }
 }
