@@ -5,33 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec06a38f-3072-4a7c-aa7c-c674c17bda1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture04/ur/gb/jcore/enumeration/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture04/ur/gb/jcore/enumeration/Seasons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture04/ur/gb/jcore/exceptions/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture04/ur/gb/jcore/homework/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture04/ur/gb/jcore/innerClass/localClass/Outer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture04/ur/gb/jcore/staticClass/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture04/ur/gb/jcore/staticClass/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/exceptions/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/store/AmountException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/store/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/store/CustomerException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/store/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/store/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/store/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/store/ProductException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework04/hw04/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework04/hw04/Category.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework04/hw04/Discount.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework04/hw04/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework04/hw04/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework04/hw04/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework04/hw04/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_Temp/misc/nestedClasses/localClass/Outer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework04/hw04/TooMuchSaleException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture04/ur/gb/jcore/lecture04/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture04/ur/gb/jcore/innerClass/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture04/ur/gb/jcore/lecture04/Orange.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture04/ur/gb/jcore/innerClass/Orange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture04/ur/gb/jcore/lecture04/Orange1.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture04/ur/gb/jcore/innerClass/Orange1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/z_Temp/misc/misc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/z_Temp/misc/misc/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/store/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/store/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/store/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/store/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/store/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/store/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/store/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/store/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Homeworks/Homework04/hw04/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Homeworks/Homework04/hw04/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Homeworks/Homework04/hw04/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Homeworks/Homework04/hw04/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Homeworks/Homework04/hw04/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Homeworks/Homework04/hw04/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Homeworks/Homework04/hw04/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Homeworks/Homework04/hw04/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,12 +53,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/_GB/8_Java_Toys",
+    "last_opened_file_path": "C:/_GB/11_JavaCore/3_Homeworks/Homework04/hw04",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\_GB\11_JavaCore\3_Homeworks\Homework04\hw04" />
       <recent name="C:\_GB\11_JavaCore\3_Homeworks\Homework03\hw03" />
       <recent name="C:\_GB\11_JavaCore\3_Homeworks\Homework02\snake" />
       <recent name="C:\_GB\11_JavaCore\3_Homeworks\Homework02" />
@@ -85,7 +72,7 @@
       <recent name="ur.gb.jcore.innerClass.localClass" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.group01.store.Main">
+  <component name="RunManager" selected="Application.hw04.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ur.gb.jcore.homework.Main" />
       <module name="JavaCore" />
@@ -125,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="misc.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="misc.Main" />
+    <configuration name="hw04.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw04.Main" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="misc.*" />
+          <option name="PATTERN" value="hw04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.hw04.Main" />
         <item itemvalue="Application.group01.store.Main" />
         <item itemvalue="Application.ur.gb.jcore.enumeration.Main" />
         <item itemvalue="Application.group01.exceptions.task01.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.misc.Main" />
       </list>
     </recent_temporary>
   </component>
