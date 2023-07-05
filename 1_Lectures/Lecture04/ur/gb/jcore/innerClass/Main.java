@@ -1,4 +1,4 @@
-package ur.gb.jcore.lecture04;
+package ur.gb.jcore.innerClass;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,13 +14,14 @@ public class Main {
         System.out.println("\n=========================================");
         // Nested Classes ============================================
         System.out.println("==== Oracle example ====");
-        Orange orange = new Orange();
-        Orange.Juice juice = orange.new Juice();
-        orange.squeezeJuice();
-        juice.flow();
+        Orange orange = new Orange();               // Initialize Outer Class instance
+        Orange.Juice juice = orange.new Juice();    // Initialize Inner Class instance
+        orange.squeezeJuice();                      // Outer class method
+        juice.flow();                               // Inner class method
         System.out.println("==== Lecturer example ====");
-        Orange1 orange1 = new Orange1();
-        orange1.squeezeJuice();
+        Orange1 orange1 = new Orange1();            // Initialize Outer Class instance.
+        // Automatically initializes Inner Class instance in Outer Class constructor
+        orange1.squeezeJuice();                     // Outer Class method. Contains Inner Class method inside
 
 
     }
@@ -40,7 +41,7 @@ public class Main {
 
     }
 
-//    private static class Orange {
+//    private static class Orange {                 // Has to be static if inside Main...
 //        private Juice juice;
 //        public Orange() {
 //            this.juice = new Juice();
