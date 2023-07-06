@@ -5,19 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec06a38f-3072-4a7c-aa7c-c674c17bda1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework04/hw04/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework04/hw04/Discount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework04/hw04/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework04/hw04/TooMuchSaleException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/exceptions/LoginPassChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/exceptions/MainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/exceptions/MainV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/exceptions/WrongLoginException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/exceptions/WrongPasswordException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/store/AmountException1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/store/CustomerException1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/store/MainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/store/ProductException1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/store/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/store/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/store/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/store/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/store/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/store/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/store/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/store/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_Homeworks/Homework04/hw04/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Homeworks/Homework04/hw04/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_Homeworks/Homework04/hw04/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Homeworks/Homework04/hw04/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_Homeworks/Homework04/hw04/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Homeworks/Homework04/hw04/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_Homeworks/Homework04/hw04/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Homeworks/Homework04/hw04/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/exceptions/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/group01/exceptions/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,16 +67,17 @@
       <recent name="C:\_GB\11_JavaCore\z_Temp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="group01.store" />
       <recent name="ur.gb.jcore.innerClass.localClass" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.hw04.Main">
+  <component name="RunManager" selected="Application.group01.exceptions.MainV2">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ur.gb.jcore.homework.Main" />
+      <option name="MAIN_CLASS_NAME" value="group01.exceptions.Main" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ur.gb.jcore.homework.*" />
+          <option name="PATTERN" value="group01.exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,25 +85,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="group01.exceptions.task01.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="group01.exceptions.task01.Main" />
-      <module name="JavaCore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="group01.exceptions.task01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="group01.store.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="group01.store.Main" />
+    <configuration name="MainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="group01.store.MainV2" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="group01.store.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="group01.exceptions.MainV3" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="group01.exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="group01.exceptions.MainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="group01.exceptions.MainV2" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="group01.exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,26 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ur.gb.jcore.enumeration.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ur.gb.jcore.enumeration.Main" />
-      <module name="JavaCore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ur.gb.jcore.enumeration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.hw04.Main" />
-        <item itemvalue="Application.group01.store.Main" />
-        <item itemvalue="Application.ur.gb.jcore.enumeration.Main" />
-        <item itemvalue="Application.group01.exceptions.task01.Main" />
+        <item itemvalue="Application.group01.exceptions.MainV2" />
+        <item itemvalue="Application.MainV3" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainV2" />
+        <item itemvalue="Application.hw04.Main" />
       </list>
     </recent_temporary>
   </component>
