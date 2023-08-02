@@ -1,4 +1,4 @@
-package ur.gb.jcore.exceptions;
+package ru.gb.jcore.exceptions;
 
 import java.io.Closeable;
 import java.io.FileInputStream;

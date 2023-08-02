@@ -1,4 +1,4 @@
-package ur.gb.jcore.innerClass.localClass;
+package ru.gb.jcore.innerClass.localClass;
 
 public class Outer {
     private void getValue() {

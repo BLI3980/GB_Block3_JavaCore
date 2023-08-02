@@ -1,4 +1,4 @@
-package ur.gb.jcore.enumeration;
+package ru.gb.jcore.enumeration;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package ur.gb.jcore.innerClass;
+package ru.gb.jcore.innerClass;
 
 /**
  * Nested classes. Non-static inner class.

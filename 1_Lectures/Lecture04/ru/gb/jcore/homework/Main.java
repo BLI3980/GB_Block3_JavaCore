@@ -1,4 +1,4 @@
-package ur.gb.jcore.homework;
+package ru.gb.jcore.homework;
 
 import java.util.Arrays;
 

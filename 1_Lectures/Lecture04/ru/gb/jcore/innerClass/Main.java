@@ -1,4 +1,4 @@
-package ur.gb.jcore.innerClass;
+package ru.gb.jcore.innerClass;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,6 +18,7 @@ public class Main {
         Orange.Juice juice = orange.new Juice();    // Initialize Inner Class instance
         orange.squeezeJuice();                      // Outer class method
         juice.flow();                               // Inner class method
+
         System.out.println("==== Lecturer example ====");
         Orange1 orange1 = new Orange1();            // Initialize Outer Class instance.
         // Automatically initializes Inner Class instance in Outer Class constructor

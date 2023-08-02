@@ -1,4 +1,4 @@
-package ur.gb.jcore.staticClass;
+package ru.gb.jcore.staticClass;
 
 public class Main {
     public static void main(String[] args) {
