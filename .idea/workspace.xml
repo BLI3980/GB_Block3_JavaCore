@@ -5,26 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec06a38f-3072-4a7c-aa7c-c674c17bda1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture05/lecture05/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/group02/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/group02/AnimalException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/group02/AnimalRunException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/group02/AnimalSwimException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/group02/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/group02/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/group01/lecturehomework/MyFileHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/group01/lecturehomework/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/File1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/File2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture04/ur/gb/jcore/enumeration/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture04/ru/gb/jcore/enumeration/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture04/ur/gb/jcore/enumeration/Seasons.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture04/ru/gb/jcore/enumeration/Seasons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture04/ur/gb/jcore/exceptions/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture04/ru/gb/jcore/exceptions/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture04/ur/gb/jcore/homework/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture04/ru/gb/jcore/homework/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture04/ur/gb/jcore/innerClass/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture04/ru/gb/jcore/innerClass/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture04/ur/gb/jcore/innerClass/Orange.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture04/ru/gb/jcore/innerClass/Orange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture04/ur/gb/jcore/innerClass/Orange1.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture04/ru/gb/jcore/innerClass/Orange1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture04/ur/gb/jcore/innerClass/localClass/Outer.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture04/ru/gb/jcore/innerClass/localClass/Outer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture04/ur/gb/jcore/staticClass/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture04/ru/gb/jcore/staticClass/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture04/ur/gb/jcore/staticClass/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture04/ru/gb/jcore/staticClass/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar05/group01/lecturehomework/MyFileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/group01/lecturehomework/MyFileHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,13 +66,13 @@
       <recent name="ur.gb.jcore.innerClass.localClass" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lecture05.Main">
-    <configuration name="MainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="group01.exceptions.MainV3" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="group01.lecturehomework.Main" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="group01.exceptions.*" />
+          <option name="PATTERN" value="group01.lecturehomework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.lecture05.Main" />
         <item itemvalue="Application.ur.gb.jcore.innerClass.Main" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.group01.exceptions.MainV2" />
-        <item itemvalue="Application.MainV3" />
       </list>
     </recent_temporary>
   </component>
