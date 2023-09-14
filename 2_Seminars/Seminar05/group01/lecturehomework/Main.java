@@ -22,7 +22,22 @@ public class Main {
         }
         file2.append(dataToWrite.toString());
 
+        // Concatenate two files. Data from file 2 added at the end of file 1 data.
         MyFileHandler.copy(file1, file2);
+
+        // Delete line 3 from file 1. Line 4 becomes the third line.
+        file1.delete(3); // delete line 3 from file1
+        System.out.println(file1.readLine(3)); // File 1 String number: 4
+
+        // Edit line 3 from file 1.
+        file1.edit(3, "Edited line 3.");
+        System.out.println(file1.readLine(3)); // Edited line 3.
+
+        file1.insert(2, "Inserted line 2.");
+        System.out.println(file1.readLine(2)); // Edited line 3.
+
+
+
 
     }
 }

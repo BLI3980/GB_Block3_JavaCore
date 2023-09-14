@@ -1,11 +1,31 @@
-package group01.lecturehomework;
+package group01.lecturework.task02;
 
 import java.io.*;
 import java.util.List;
 
+/**
+ * File handling class.
+ * Includes methods:
+ *  - READING specified line in the file;
+ *  - EDITING specified line in the file;
+ *  - INSERTING a line below specified line in the file;
+ *  - DELETING specified line in the file;
+ *  - APPENDING a line to the end of the file;
+ *  - CLEARING the contents of the file;
+ *  - SEARCHING a line number of specified string in the file;
+ *  - GETTING the amount of lines in the file;
+ *  - REPLACING the contents from input file to current file;
+ *  - COPYING the contents from input file to the end of current file;
+ */
 public class MyFileHandler {
     private File fileStorage;
     private String info;
+
+    /**
+     * The constructor for the current class.
+     * @param filePath - the path to the new file.
+     * @param info - information of the new file.
+     */
     public MyFileHandler(String filePath, String info) {
         this.fileStorage = new File(filePath);
         try {
@@ -18,6 +38,19 @@ public class MyFileHandler {
         this.info = info;
     }
 
+    /**
+     * Utility method, returns the information commented in the file at the time of creation of the file.
+     * @return - the information of the file.
+     */
+    public String info() {
+        return this.info;
+    }
+
+    /**
+     * Utility method returns a list of lines from input file.
+     * @param file - the object of File class.
+     * @return - the object of List class containing the list of Strings.
+     */
     private List<String> readFile(File file) {
         List<String> fileLines = null;
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader(file))) {
@@ -28,10 +61,11 @@ public class MyFileHandler {
         return fileLines;
     }
 
-    public String info() {
-        return this.info;
-    }
-
+    /**
+     * Method returns a line of the current file by specified line number.
+     * @param lineNumber - specified number of the line to be returned.
+     * @return - the line of the specified number.
+     */
     public String readLine(int lineNumber) {
         String line = null;
         try (BufferedReader fileStream = new BufferedReader(new FileReader(this.fileStorage))) {
@@ -44,7 +78,12 @@ public class MyFileHandler {
         }
         return line;
     }
-    
+
+    /**
+     * Method replaces a line in the current line.
+     * @param lineNumber - the number of the line to be replaced.
+     * @param line - the line which replaces specified line in the current file.
+     */
     public void edit(int lineNumber, String line) {
         List<String> fileLines = readFile(this.fileStorage);
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(this.fileStorage))) {
@@ -60,6 +99,11 @@ public class MyFileHandler {
         }
     }
 
+    /**
+     * Method inserts a line below specified line of the current file.
+     * @param lineNumber - the number of the line below which the input line to be inserted.
+     * @param line - the input line to be inserted.
+     */
     public void insert(int lineNumber, String line) {
         List<String> fileLines = readFile(this.fileStorage);
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(this.fileStorage))) {
@@ -76,6 +120,10 @@ public class MyFileHandler {
         }
     }
 
+    /**
+     * Method deletes a line from the current file.
+     * @param lineNumber - the number of the line to be deleted from the file.
+     */
     public void delete(int lineNumber) {
         List<String> fileLines = readFile(this.fileStorage);
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(this.fileStorage))){
@@ -89,6 +137,10 @@ public class MyFileHandler {
         }
     }
 
+    /**
+     * Method appends a line to the end of the current file.
+     * @param appendLine - input line to append.
+     */
     public void append(String appendLine) {
         try (BufferedReader reader = new BufferedReader(new FileReader(this.fileStorage));
              BufferedWriter writer = new BufferedWriter(new FileWriter(this.fileStorage))) {
@@ -103,6 +155,9 @@ public class MyFileHandler {
         }
     }
 
+    /**
+     * Method deletes/clears all the contents of the current file.
+     */
     public void clear() {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(this.fileStorage))) {
             writer.flush();
@@ -112,6 +167,11 @@ public class MyFileHandler {
         }
     }
 
+    /**
+     * Method searches a line in the current file and returns the number of found line.
+     * @param findLine - the input line to be searched in the current file.
+     * @return - the number of found line. If searched line does not exist in the current file, method returns -1.
+     */
     public int find(String findLine) {
         int foundLineNumber = -1;
         try (BufferedReader reader = new BufferedReader(new FileReader(this.fileStorage))) {
@@ -125,6 +185,23 @@ public class MyFileHandler {
         return foundLineNumber;
     }
 
+//    public int contains(String string) {
+//        int foundLineNumber = -1;
+//        try (BufferedReader reader = new BufferedReader(new FileReader(this.fileStorage))) {
+//            List<String> fileLines = (reader.lines().toList());
+//            for (String line : fileLines) {
+//                if (line.contains(findLine)) foundLineNumber = fileLines.indexOf(line);
+//            }
+//        } catch (IOException e) {
+//            System.out.println("IOException: Unable to access the file.");
+//        }
+//        return foundLineNumber;
+//    }
+
+    /**
+     * Method returns the amount of lines in the current file
+     * @return - the amount of lines.
+     */
     public int size() {
         int size = -1;
         try (BufferedReader reader = new BufferedReader(new FileReader(this.fileStorage))) {

@@ -1,4 +1,4 @@
-package group01.lecturehomework;
+package group01.lecturework.task01;
 
 import java.io.*;
 import java.util.List;
