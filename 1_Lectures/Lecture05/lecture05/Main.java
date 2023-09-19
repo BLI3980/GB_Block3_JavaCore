@@ -28,7 +28,7 @@ public class Main {
 //        System.out.println("File deleted - "+ file.delete());                   // File deleted - true
 //        System.out.println("File exists - "+ file.exists());                    // File exists - false
 //        System.out.println("Free space on disk - " + folder.getFreeSpace());    // Free space on disk - 196533374976
-//
+
 //        System.out.println("================= Path =================");
 //        File file1 = new File("test.txt");
 //        Path filePath = Paths.get(file1.getName());
@@ -49,57 +49,76 @@ public class Main {
 //        boolean startsWithPics = filePath1.startsWith("Lecture05/lecture05/");
 //        System.out.println("Starts with filepath: " + startsWithPics);          // Starts with filepath: false
 //
-//        System.out.println(filePath1.isAbsolute());
+//        System.out.println(filePath1.isAbsolute());                             // false
 //        Path pathFirst = Paths.get("./Lecture05/lecture05/Main.java");
-//        System.out.println(pathFirst.normalize());
+//        System.out.println(pathFirst.normalize());                              // Lecture05\lecture05\Main.java
 //        Path pathSecond = Paths.get("._GB/../Lecture05/lecture05/Main.java");
-//        System.out.println(pathSecond.normalize());
+//        System.out.println(pathSecond.normalize());                             // Lecture05\lecture05\Main.java
 //
 //        System.out.println("================= Files =================");
 //        try {
-//            Path file = Files.createFile(Paths.get("../11_JavaCore/file.txt"));
-//            System.out.print("Was the file captured successfully in the projet root directory? ");
-//            System.out.println(Files.exists(Paths.get("../11_JavaCore/file.txt")));
+//            // Create new file
+//            Path initialPath = Paths.get("../11_JavaCore/file.txt");
+//            Path file = Files.createFile(initialPath);
+//            System.out.print("Was the file captured successfully in the project root directory? ");
+//            System.out.println(Files.exists(initialPath));
 //
-//            Path testDirectory = Files.createDirectory(Paths.get("./testing"));
+//            // Create new test directory
+//            Path testDirPath = Paths.get("./testing");
+//            Path testDirectory = Files.createDirectory(testDirPath);
 //            System.out.print("Was the test directory created successfully? ");
-//            System.out.println(Files.exists(Paths.get("./testing")));
+//            System.out.println(Files.exists(testDirPath));
 //
-//            file = Files.move(file, Paths.get("./testing/file.txt"), REPLACE_EXISTING);
+//            // Move the file to the test directory
+//            Path pathToMove = Paths.get("./testing/file.txt");
+//            file = Files.move(file, pathToMove, REPLACE_EXISTING);
 //            System.out.print("Is our file still in the project root directory? ");
-//            System.out.println(Files.exists(Paths.get("../11_JavaCore/file.txt")));
+//            System.out.println(Files.exists(initialPath));
 //            System.out.print("Has our file been moved to test directory? ");
-//            System.out.println(Files.exists(Paths.get("./testing/file.txt")));
+//            System.out.println(Files.exists(pathToMove));
 //
-//            Path copyFile = Files.copy(file, Paths.get("../11_JavaCore/file.txt"), REPLACE_EXISTING);
+//            // Copy the file from the test directory back to the root directory
+//            Path copyFile = Files.copy(file, initialPath, REPLACE_EXISTING);
 //            System.out.print("Has our file been copied to the project root directory? ");
-//            System.out.println(Files.exists(Paths.get("../11_JavaCore/file.txt")));
+//            System.out.println(Files.exists(initialPath));
 //
+//            // Delete the file in the test directory
 //            Files.delete(file);
 //            System.out.print("Does the file exist in test directory? ");
 //            System.out.println(Files.exists(Paths.get("./testing/file.txt")));
 //            System.out.print("Does the test directory exist? ");
 //            System.out.println(Files.exists(Paths.get("./testing")));
+//
+//            Files.delete(testDirectory);            // Deleting to clean up after these example tests
+//            Files.delete(copyFile);                 // Deleting to clean up after these example tests
 //        } catch (IOException e) {
 //            e.printStackTrace();
 //        }
 
 //        System.out.println("================= Files contents =================");
-//        List<String> lines= Arrays.asList(
+//        List<String> lines = Arrays.asList(
 //                "The cat wants to play with you",
 //                "But you don't want to play with it"
 //        );
+//
+//        System.out.println("Reading the list before copying to file: ");
+//        for (String s : lines) {
+//            System.out.println(s);
+//        }
+//
 //        try {
-//            Path file = Files.createFile(Paths.get("./1_Lectures/Lecture05/lecture05/cat.txt"));
+//            Path catFilePath = Paths.get("./1_Lectures/Lecture05/lecture05/cat.txt");
+//            Path file = Files.createFile(catFilePath);
 //
 //            if (Files.exists(file)) {
 //                Files.write(file,lines, StandardCharsets.UTF_8);
 //                lines = Files.readAllLines(
-//                        Paths.get("./1_Lectures/Lecture05/lecture05/cat.txt"),
+//                        catFilePath,
 //                        StandardCharsets.UTF_8
 //                );
 //            }
 //
+//            System.out.println("\nReading the list after copying to file: ");
 //            for (String s : lines) {
 //                System.out.println(s);
 //            }
@@ -183,40 +202,40 @@ public class Main {
 //            e.printStackTrace();
 //        }
 
-        System.out.println("================= String =================");
-        String s1 = "Java";
-        String s2 = new String("Home");
-        String s3 = new String(new char[] {'A', 'B', 'C'});
-        String s4 = new String(s3);
-        String s5 = new String(new byte[] {65, 66, 67});
-        String s6 = new String(new byte[] {0, 65, 0 , 66}, StandardCharsets.UTF_16);
-        System.out.println(s1);
-        System.out.println(s2);
-        System.out.println(s3);
-        System.out.println(s4);
-        System.out.println(s3.equals(s4));
-        System.out.println(s3 == s4);
-        System.out.println(s5);
-        System.out.println(s6);
-
-
-        long timeStart = System.nanoTime();
-        String str = "Example";
-        for (int i = 0; i < 200_000; i++) {
-            str = str + i;
-        }
-        double deltaTime = (System.nanoTime() - timeStart) * 0.000_000_001;
-        System.out.println("Delta time (sec): " + deltaTime);
-
-        timeStart = System.nanoTime();
-        StringBuilder sb = new StringBuilder("Example");
-        for (int i = 0; i < 200_000; i++) {
-            sb.append(i);
-        }
-        deltaTime = (System.nanoTime() - timeStart) * 0.000_000_001;
-        System.out.println("Delta time sb (sec): " + deltaTime);
-
-        System.out.println(str.equals(sb.toString()));
+//        System.out.println("================= String =================");
+//        String s1 = "Java";
+//        String s2 = new String("Home");
+//        String s3 = new String(new char[] {'A', 'B', 'C'});
+//        String s4 = new String(s3);
+//        String s5 = new String(new byte[] {65, 66, 67});
+//        String s6 = new String(new byte[] {0, 65, 0 , 66}, StandardCharsets.UTF_16);
+//        System.out.println(s1);
+//        System.out.println(s2);
+//        System.out.println(s3);
+//        System.out.println(s4);
+//        System.out.println(s3.equals(s4));
+//        System.out.println(s3 == s4);
+//        System.out.println(s5);
+//        System.out.println(s6);
+//
+//
+//        long timeStart = System.nanoTime();
+//        String str = "Example";
+//        for (int i = 0; i < 200_000; i++) {
+//            str = str + i;
+//        }
+//        double deltaTime = (System.nanoTime() - timeStart) * 0.000_000_001;
+//        System.out.println("Delta time (sec): " + deltaTime);
+//
+//        timeStart = System.nanoTime();
+//        StringBuilder sb = new StringBuilder("Example");
+//        for (int i = 0; i < 200_000; i++) {
+//            sb.append(i);
+//        }
+//        deltaTime = (System.nanoTime() - timeStart) * 0.000_000_001;
+//        System.out.println("Delta time sb (sec): " + deltaTime);
+//
+//        System.out.println(str.equals(sb.toString()));
 
     }
 }
