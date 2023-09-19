@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec06a38f-3072-4a7c-aa7c-c674c17bda1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/group01/lecturework/task01/Cypher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/group01/lecturework/task01/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/group01/lecturework/task01/MyFileHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/group01/lecturework/task02/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/group01/lecturework/task02/MyFileHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/group01/lecturework/task02/MyHash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/group01/lecturework/task02/UI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Database.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decrypted" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/encrypted" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inputFile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar05/group01/lecturehomework/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/group01/lecturehomework/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar05/group01/lecturehomework/MyFileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/group01/lecturehomework/MyFileHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/File1" beforeDir="false" afterPath="$PROJECT_DIR$/File1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar05/group01/lecturework/task02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/group01/lecturework/task02/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar05/group01/lecturework/task02/MyHash.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/group01/lecturework/task02/MyHash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Database.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +70,7 @@
       <recent name="ur.gb.jcore.innerClass.localClass" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.group01.lecturework.task01.Main">
+  <component name="RunManager" selected="Application.group01.lecturework.task02.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="group01.lecturehomework.Main" />
       <module name="JavaCore" />
@@ -149,8 +138,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.group01.lecturework.task01.Main" />
         <item itemvalue="Application.group01.lecturework.task02.Main" />
+        <item itemvalue="Application.group01.lecturework.task01.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.lecture05.Main" />
         <item itemvalue="Application.ur.gb.jcore.innerClass.Main" />

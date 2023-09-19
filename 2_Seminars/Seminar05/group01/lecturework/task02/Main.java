@@ -22,12 +22,12 @@ public class Main {
             System.out.println("User login and password are created in database. ");
         } else {
             String dbPassword = database.readLine(loginLine).split(" ")[1];
-            System.out.println(hashPassword);
-            System.out.println(dbPassword);
+            System.out.println("The hash password for the entered password is: " + hashPassword);
+            System.out.println("The hash password in the database is: " + dbPassword);
             if (hashPassword.equals(dbPassword)) {
-                System.out.println("User authorized.");
+                System.out.println("\nUser authorized.");
             } else {
-                System.out.println("Provided password is incorrect");
+                System.out.println("\nProvided password is incorrect");
             }
 
         }
