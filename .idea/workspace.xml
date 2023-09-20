@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec06a38f-3072-4a7c-aa7c-c674c17bda1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework05/hw05/task01/FolderToBackup/File0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework05/hw05/task01/FolderToBackup/File1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework05/hw05/task01/FolderToBackup/File2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework05/hw05/task01/FolderToBackup/File3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework05/hw05/task01/FolderToBackup/File4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework05/hw05/task01/FolderToBackup/File5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework05/hw05/task01/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileX.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture05/lecture05/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture05/lecture05/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Homeworks/Homework05/hw05/task01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Homeworks/Homework05/hw05/task01/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +23,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />

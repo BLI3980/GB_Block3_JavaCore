@@ -34,12 +34,15 @@ public class Main {
 
     }
 
-    public static void backup(Path directory) {
-        Path backupDirectory = Paths.get("./3_Homeworks/Homework05/hw05/task01/Backup");
+    public static void backup(Path directoryPath) {
+        Path backupPath = Paths.get("./3_Homeworks/Homework05/hw05/task01/Backup");
         try {
-            for (Path file : directory) {
+            Path backupDirectory = Files.createDirectory(backupPath);
+            System.out.println("Backup directory created? " + Files.exists(backupDirectory));
+            for (Path file : directoryPath) {
                 if (!Files.isDirectory(file)) {
-                    Files.copy(file, backupDirectory, REPLACE_EXISTING);
+                    System.out.println(file);
+//                    Files.copy(file, backupDirectory, REPLACE_EXISTING);
                 }
             }
         } catch (IOException e) {
