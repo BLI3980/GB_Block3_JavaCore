@@ -15,7 +15,7 @@ public class Main {
     public static void main(String[] args) {
         // Create new test directory
         File folder = new File("C:\\_GB\\11_JavaCore\\3_Homeworks\\Homework05\\hw05\\task01\\FolderToBackup");
-        System.out.println(folder.mkdir());
+        System.out.println("Folder just created? " + folder.mkdir());
 
         // Create several test files inside the test directory
         String folderPath = ".\\3_Homeworks\\Homework05\\hw05\\task01\\FolderToBackup\\";
@@ -27,7 +27,8 @@ public class Main {
                 System.out.println(e.getMessage());
             }
         }
-//        System.out.println(folder.toPath().toString());
+
+        // Backup files from the test directory to the backup directory
         backup(folder.toPath());
 
 
@@ -35,14 +36,21 @@ public class Main {
     }
 
     public static void backup(Path directoryPath) {
+        // Create backup directory path
         Path backupPath = Paths.get("./3_Homeworks/Homework05/hw05/task01/Backup");
+        System.out.println("Source directory exists? " + Files.exists(directoryPath));
         try {
-            Path backupDirectory = Files.createDirectory(backupPath);
-            System.out.println("Backup directory created? " + Files.exists(backupDirectory));
-            for (Path file : directoryPath) {
-                if (!Files.isDirectory(file)) {
-                    System.out.println(file);
-//                    Files.copy(file, backupDirectory, REPLACE_EXISTING);
+            // Create backup directory
+            if (!Files.exists(backupPath)) {
+                Path backupDirectory = Files.createDirectory(backupPath);
+                System.out.println("Backup directory created? " + Files.exists(backupDirectory));
+            }
+
+            // Copy files from directory into backup directory
+            for (Path sourceFile : Files.list(directoryPath).toList()) {
+                if (!Files.isDirectory(sourceFile)) {
+                    Path backupFile = Path.of(backupPath + "/" + sourceFile.getFileName());
+                    Files.copy(sourceFile, backupFile, REPLACE_EXISTING);
                 }
             }
         } catch (IOException e) {
