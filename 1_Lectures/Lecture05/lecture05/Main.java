@@ -129,17 +129,34 @@ public class Main {
 //            e.printStackTrace();
 //        }
 //
+//        System.out.println("================= ByteArrayInputStream and ByteArrayOutputStream =================");
+//        ByteArrayOutputStream out = new ByteArrayOutputStream();
+//        out.write(1);
+//        out.write(-1);
+//        out.write(0);
+//
+//        ByteArrayInputStream in = new ByteArrayInputStream(out.toByteArray());
+//        int value = in.read();
+//        System.out.println("First element is: " + value);
+//
+//        value = in.read();
+//        System.out.println("Second element is: " + value + ". If (byte)value: " + (byte)value);
+//
+//        value = in.read();
+//        System.out.println("Third element is: " + value);
+//
 //        System.out.println("================= FileInputStream and FileOutputStream =================");
 //        byte[] bytesToWrite = {0, 10, 12, 14, 55, 13, 23};
 //        byte[] bytesToRead = new byte[10];
 //        File file = new File("bytes.txt");
+//        System.out.println("New file called \"bytes.txt\" was created.");
 //
 //        try {
-//            System.out.println("Begin");                                                // Begin
+//            System.out.println("Begin to write bytes into the file.");                  // Begin
 //            FileOutputStream outFile = new FileOutputStream(file);
 //            outFile.write(bytesToWrite);
 //            outFile.close();
-//            System.out.println("Bytes written");                                        // Bytes written
+//            System.out.println("Bytes written to the file. \nOutput stream closed.");     // Bytes written
 //
 //            FileInputStream inFile= new FileInputStream(file);
 //            int byteAvailable = inFile.available();
@@ -157,50 +174,50 @@ public class Main {
 //        } catch (IOException e) {
 //            System.out.println("Error input/output: " + e.toString());
 //        }
-//
-//        System.out.println("================= BufferedFileInputStream and BufferedFileOutputStream =================");
-//        String fileName = "testFile.txt";
-//        InputStream inStream = null;
-//        OutputStream outStream = null;
-//        // Write data to file
-//        try {
-//            long timeStart = System.currentTimeMillis();
-//            outStream = new BufferedOutputStream(new FileOutputStream(fileName));
-//            for (int i = 1000000; --i>=0;) {
-//                outStream.write(i);
-//            }
-//            long time = System.currentTimeMillis() - timeStart;
-//            System.out.println("Writing time: " + time + " millisec.");
-//            outStream.close();
-//        } catch (IOException e) {
-//            System.out.println("IOException: " + e.toString());
-//        }
-//        // Read data from file without buffer
-//        try {
-//            long timeStart = System.currentTimeMillis();
-//            inStream = new FileInputStream(fileName);
-//            while (inStream.read() != -1) {}
-//
-//            long time = System.currentTimeMillis() - timeStart;
-//            inStream.close();
-//            System.out.println("Direct read time : " + time + " millisec.");
-//        } catch (IOException e) {
-//            System.out.println("IOException: " + e.toString());
-//            e.printStackTrace();
-//        }
-//        // Read data from file with butter
-//        try {
-//            long timeStart = System.currentTimeMillis();
-//            inStream = new BufferedInputStream(new FileInputStream(fileName));
-//            while (inStream.read() != -1) {}
-//
-//            long time = System.currentTimeMillis() - timeStart;
-//            inStream.close();
-//            System.out.println("Buffered read time : " + time + " millisec.");
-//        } catch (IOException e) {
-//            System.out.println("IOException: " + e.toString());
-//            e.printStackTrace();
-//        }
+
+        System.out.println("================= BufferedFileInputStream and BufferedFileOutputStream =================");
+        String fileName = "testFile.txt";
+        InputStream inStream = null;
+        OutputStream outStream = null;
+        // Write data to file
+        try {
+            long timeStart = System.currentTimeMillis();
+            outStream = new BufferedOutputStream(new FileOutputStream(fileName));
+            for (int i = 1000000; --i>=0;) {
+                outStream.write(i);
+            }
+            long time = System.currentTimeMillis() - timeStart;
+            System.out.println("Writing time: " + time + " millisec.");
+            outStream.close();
+        } catch (IOException e) {
+            System.out.println("IOException: " + e.toString());
+        }
+        // Read data from file without buffer
+        try {
+            long timeStart = System.currentTimeMillis();
+            inStream = new FileInputStream(fileName);
+            while (inStream.read() != -1) {}
+
+            long time = System.currentTimeMillis() - timeStart;
+            inStream.close();
+            System.out.println("Direct read time : " + time + " millisec.");
+        } catch (IOException e) {
+            System.out.println("IOException: " + e.toString());
+            e.printStackTrace();
+        }
+        // Read data from file with butter
+        try {
+            long timeStart = System.currentTimeMillis();
+            inStream = new BufferedInputStream(new FileInputStream(fileName));
+            while (inStream.read() != -1) {}
+
+            long time = System.currentTimeMillis() - timeStart;
+            inStream.close();
+            System.out.println("Buffered read time : " + time + " millisec.");
+        } catch (IOException e) {
+            System.out.println("IOException: " + e.toString());
+            e.printStackTrace();
+        }
 
 //        System.out.println("================= String =================");
 //        String s1 = "Java";
