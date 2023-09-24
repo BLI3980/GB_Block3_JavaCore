@@ -52,37 +52,37 @@ public class Main {
 //        }
 
         // ============================================================
-        try {
-            FileOutputStream out = new FileOutputStream("temp.txt");
-            byte one = 64;
-            byte two = 33;
-            byte three = 0;
-            System.out.println(one);
-            System.out.println(two);
-            System.out.println(three);
-            System.out.println((byte)one);
-            System.out.println((byte)two);
-            System.out.println((byte)three);
-//            out.write((byte)one);
-//            out.write((byte)two);
-//            out.write((byte)three);
-            out.write(one);
-            out.write(two);
-            out.write(three);
-            out.close();
-            FileInputStream in = new FileInputStream("temp.txt");
-//            System.out.println(Arrays.toString(in.readAllBytes()));
-            byte[] bytes = in.readAllBytes();
-//            System.out.println(bytes.length);
-//            System.out.println(bytes[0]);
-            for (byte item: bytes) {
-                System.out.println((int)item);
-            }
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
+//        try {
+//            FileOutputStream out = new FileOutputStream("temp.txt");
+//            byte one = 64;
+//            byte two = 33;
+//            byte three = 0;
+//            System.out.println(one);
+//            System.out.println(two);
+//            System.out.println(three);
+//            System.out.println((byte)one);
+//            System.out.println((byte)two);
+//            System.out.println((byte)three);
+////            out.write((byte)one);
+////            out.write((byte)two);
+////            out.write((byte)three);
+//            out.write(one);
+//            out.write(two);
+//            out.write(three);
+//            out.close();
+//            FileInputStream in = new FileInputStream("temp.txt");
+////            System.out.println(Arrays.toString(in.readAllBytes()));
+//            byte[] bytes = in.readAllBytes();
+////            System.out.println(bytes.length);
+////            System.out.println(bytes[0]);
+//            for (byte item: bytes) {
+//                System.out.println((int)item);
+//            }
+//        } catch (FileNotFoundException e) {
+//            throw new RuntimeException(e);
+//        } catch (IOException e) {
+//            throw new RuntimeException(e);
+//        }
 
         // ============================================================
 //        HashMap<Byte,String> map = new HashMap<>();
@@ -102,6 +102,19 @@ public class Main {
 //                key++;
 //            }
 //        }
+        // ============================================================
+        int[] array = new int[] {3, 3, 3};
+        String str = "";
+        for (int item : array) {
+            str += Integer.toBinaryString(item);
+        }
+        System.out.println(str);
+        int binToDec = Integer.parseInt(str, 2);
+        System.out.println(binToDec);
+        byte b = (byte)binToDec;
+        System.out.println(b);
+//        byte b = Byte.parseByte(str);
+//        System.out.println(str);
 
     }
 
